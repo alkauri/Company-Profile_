@@ -1,0 +1,262 @@
+/* =============================== */
+/*           GENERAL STYLES        */
+/* =============================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffd8e1;
+  background: #1a0f1d;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+/* =============================== */
+/*           NAVBAR STYLES         */
+/* =============================== */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  background: rgba(26, 15, 29, 0.9);
+  padding: 15px 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffd8e1 !important;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f4c542 !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f4c542 !important;
+  border-bottom: 2px solid #f4c542;
+}
+
+/* =============================== */
+/*          HERO SECTION           */
+/* =============================== */
+.hero {
+  background: url("img/camellya.png") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ffd8e1;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #f4c542;
+}
+
+/* =============================== */
+/*         ABOUT US SECTION        */
+/* =============================== */
+.about-section {
+  background: #1a0f1d;
+  color: #ffd8e1;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  color: #f4c542;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 216, 225, 0.3);
+}
+
+.about-text {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  text-align: left;
+}
+
+.about-text h3 {
+  font-size: 24px;
+  color: #f4c542;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text {
+    text-align: center;
+  }
+}
+
+/* =============================== */
+/*            FOOTER               */
+/* =============================== */
+.footer {
+  background: #2c1b2e;
+  padding: 50px 0;
+  color: #ffd8e1;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 30%;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f4c542;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #ffd8e1;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #e63946;
+}
+
+/* Sosial Media Icons */
+.social-links a {
+  color: #ffd8e1;
+  font-size: 20px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #e63946;
+}
+
+/* Copyright */
+.footer-bottom {
+  background: #1a0f1d;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #ddd;
+}
+
+.character-card {
+  background: linear-gradient(135deg, rgba(50, 50, 50, 0.8), rgba(20, 20, 20, 0.9));
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 215, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 215, 0, 0.5);
+}
+
+.character-card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.5);
+}
+
+.character-card .card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #ffd700 !important; /* Warna emas cerah */
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); /* Bayangan lebih jelas agar kontras */
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.card-text {
+  color: #ddd;
+}

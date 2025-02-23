@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wuthering Waves - Kuro Games</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-black text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="Kuro Games Logo" width="100" height="50" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="wuthering-waves.html">Wuthering Waves</a></li>
+            <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" style="background: url('img/wuwa.jpg') no-repeat center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative">
+      <div class="overlay" style="background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%"></div>
+      <div class="content position-relative text-light">
+        <h1 class="fw-bold">Wuthering Waves</h1>
+        <p class="lead">Embark on an unforgettable journey through a beautifully crafted open world.</p>
+        <div class="btn-group mt-3">
+          <a href="#features" class="btn btn-outline-light">Explore Features</a>
+          <a href="https://wutheringwaves.kurogames.com/en/" class="btn btn-warning">Download Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="trailer" class="trailer-section py-5 text-center bg-black">
+      <div class="container">
+        <h2 class="mb-3 text-warning">Official Trailer</h2>
+        <p class="mb-4 text-light">Watch the epic trailer of Wuthering Waves and get ready for the adventure.</p>
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/SdUgFGx1kOY?si=q6cv_sHBeAyuJPX6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="character-section py-5">
+      <div class="container">
+        <h2 class="text-warning text-center mb-4">Meet the Resonators</h2>
+        <div class="row justify-content-center">
+          <!-- Kartu Karakter 1 -->
+          <div class="col-md-4">
+            <div class="card character-card">
+              <img src="img/phoebe.jpg" class="card-img-top" alt="Phoebe" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Phoebe</h5>
+                <p class="card-text">Praise the Sentinel. May They guide you to compassion and enlightenment.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kartu Karakter 2 -->
+          <div class="col-md-4">
+            <div class="card character-card">
+              <img src="img/brant.jpg" class="card-img-top" alt="Brant" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Brant</h5>
+                <p class="card-text">The wandering warrior who fights with fire and fury.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kartu Karakter 3 (Charlotta) -->
+          <div class="col-md-4">
+            <div class="card character-card">
+              <img src="img/charlotta.jpg" class="card-img-top" alt="Charlotta" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Charlotta</h5>
+                <p class="card-text">A master of the arts, elegant yet deadly in combat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section py-5 text-center bg-dark">
+      <div class="container">
+        <h2 class="mb-3 text-warning">Game Features</h2>
+        <p class="mb-4 text-light">Discover what makes Wuthering Waves an extraordinary adventure.</p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <i class="fas fa-globe fa-2x text-warning"></i>
+            <h3 class="text-light mt-2">Expansive Open World</h3>
+            <p class="text-light">Roam freely in a beautifully crafted world filled with mysteries.</p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <i class="fas fa-fist-raised fa-2x text-warning"></i>
+            <h3 class="text-light mt-2">Dynamic Combat</h3>
+            <p class="text-light">Engage in action-packed battles with intuitive and fluid controls.</p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <i class="fas fa-book fa-2x text-warning"></i>
+            <h3 class="text-light mt-2">Rich Storytelling</h3>
+            <p class="text-light">Immerse yourself in a compelling narrative with deep lore.</p>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <i class="fas fa-music fa-2x text-warning"></i>
+            <h3 class="text-light mt-2">Epic Soundtrack</h3>
+            <p class="text-light">Experience a breathtaking soundtrack that enhances every moment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-4 text-center">
+      <div class="container">
+        <p>&copy; 2025 Kuro Games. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+  </body>
+</html>
